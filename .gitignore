@@ -1,0 +1,96 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.sublime-project
+*.sublime-workspace
+*.db
+*.sqlite3
+db.sqlite3
+
+# Ignoring database migrations
+migrations/
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Django admin panel and database-related files
+db.sqlite3
+*.db
+*.bak
+*.dat
+*.dir
+
+# Environment variables
+.env
+local_settings.py
+
+# Docker files
+docker-compose.yml
+Dockerfile
+
+# Celery beat schedule files
+celerybeat-schedule
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
+
+# Ignore .env files with environment variables
+.env
+
+# VSCode files
+.vscode/
+
+# PyCharm files
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Coverage reports
+htmlcov/
+*.cover
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# pytest
+.cache/
+.pytest_cache/
+
+# Ignore pytest result
+pytest_result.log
+
+# Ignore jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Node modules
+node_modules/
+
+# Yarn / NPM files
+yarn.lock
+package-lock.json
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
